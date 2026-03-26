@@ -81,7 +81,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
-    align-items: center;
+    align-items: start;
+}
+
+.hero-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .hero-content h2 {
@@ -89,6 +96,7 @@ body {
     margin-bottom: 1rem;
     color: #f39c12;
     position: relative;
+    text-align: left;
 }
 
 .hero-content h2::after {
@@ -99,6 +107,7 @@ body {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     opacity: 0.9;
+    text-align: left;
 }
 
 .cta-button {
@@ -111,6 +120,8 @@ body {
     font-weight: 600;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+    text-align: left;
+    align-self: flex-start;
 }
 
 .cta-button:hover {
