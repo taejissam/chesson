@@ -1,0 +1,16 @@
+{
+  "name": "체스온 - 어린이 체스 전문 교육",
+  "short_name": "체스온",
+  "description": "어린이를 위한 전문 체스 교육 기관",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2c3e50",
+  "theme_color": "#f39c12",
+  "icons": [
+    {
+      "src": "체스온4.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
