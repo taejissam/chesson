@@ -41,6 +41,20 @@ body {
     gap: 10px;
 }
 
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.logo-link:hover {
+    color: #f39c12;
+    transform: scale(1.05);
+}
+
 .logo i {
     font-size: 2rem;
     color: #f39c12;
