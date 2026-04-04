@@ -46,34 +46,24 @@ body {
     align-items: center;
     gap: 10px;
     text-decoration: none;
+    color: inherit;
     transition: all 0.3s ease;
 }
 
-.logo-link:hover .logo i {
+.logo-link:hover {
     color: #f39c12;
     transform: scale(1.05);
 }
 
-.logo-link:hover .logo h1 {
-    color: #f39c12;
-    transform: scale(1.05);
-}
-
-.logo i,
-.logo h1 {
-    color: inherit;
-    text-decoration: none;
-}
-
-.logo i {
+.logo-link i {
     font-size: 2rem;
-    color: #f39c12;
+    color: #f39c12 !important;
 }
 
-.logo h1 {
+.logo-link h1 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: white;
+    color: white !important;
 }
 
 .nav {
